@@ -9,12 +9,35 @@
     <script src="jquery.js"></script>
     <script>
         $(document).ready(function(){
-            
+            $("img").click(function() {
+                $(this).attr( "src", function() {
+                    return this.alt;
+
+                });
+            });
         });
     
     </script>
 </head>
 <body>
-    
+    <div id="wrapper">
+        <h1>NINJA TO CAT</h1>
+        <div class="box">
+            <img src='ninja0.png' alt='cat0.png' />
+        </div>
+        <div class="box">
+            <img src='ninja1.png' alt='cat1.png' />
+        </div>
+        <div class="box">
+            <img src='ninja2.png' alt='cat2.png' />
+        </div>
+        <div class="box">
+            <img src='ninja3.png' alt='cat3.png' />
+        </div>
+        <div class="box">
+            <img src='ninja4.png' alt='cat4.png' />
+        </div>
+      
+    </div>
 </body>
 </html>

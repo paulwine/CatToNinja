@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+}
+#wrapper{
+    width:970px;
+    background: linear-gradient(teal, orchid);
+    margin: 0 auto;
+}
+.box{
+    width:40%;
+    margin: 0 30%;
+}
+img{
+    width:100%;
+}
+h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
